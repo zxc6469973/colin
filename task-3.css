@@ -1,0 +1,53 @@
+body{
+    background-color:#68cdd5;
+}
+.m1 {
+    width: 5vw;
+    height: 5vh;
+    margin: 5vw;
+    float: left;
+
+}
+.m2 {
+    width: 20vw;
+    height: 10vh;
+    padding:0 38vw 0 38vw;
+    margin: 10vh 0 10vh 0;
+    clear: left;
+    float: left;
+
+}
+.m3 {
+    width: 80vw;
+    height: 20vh;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    clear: left;
+    float:left;
+    padding-right: 10vw;
+    padding-left: 10vw;
+
+}
+.m4 {
+    float: left;
+    width: 15vw;
+    height: 15vh;
+    margin-left: 10vw;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+
+}
+.m5 {
+    float: right;
+    width: 15vw;
+    height: 15vh;
+    margin-right: 10vw;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+
+}
