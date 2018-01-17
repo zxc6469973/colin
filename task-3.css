@@ -11,10 +11,9 @@ body{
 .m2 {
     width: 20vw;
     height: 10vh;
-    padding:0 38vw 0 38vw;
-    margin: 10vh 0 10vh 0;
+    padding: 10vh 0;
     clear: left;
-    float: left;
+    margin: auto ;
 
 }
 .m3 {
