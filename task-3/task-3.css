@@ -1,48 +1,40 @@
+html{
+    font-size: 62.5%;
+
+}
 body{
     background-color:#68cdd5;
 }
 .m1 {
-    width: 5vw;
-    height: 5vh;
-    margin: 5vw;
+    margin: 1rem 0.5rem;
     float: left;
 
 }
 .m2 {
-    width: 20vw;
-    height: 10vh;
-    padding: 10vh 0;
+    padding: 4rem 0;
     clear: left;
-    margin: auto ;
+    text-align: center;
 
 }
 .m3 {
-    height: 20vh;
     text-align: center;
-    font-size: 24px;
+    font-size: 1rem;
     color: white;
-    clear: left;
-    float:left;
-    padding-right: 10vw;
-    padding-left: 10vw;
+    margin:3rem 2rem;
 
 }
 .m4 {
     float: left;
-    width: 15vw;
-    height: 15vh;
-    margin-left: 10vw;
-    font-size: 24px;
+    margin:2rem 2rem;
+    font-size: 1rem;
     color: white;
     text-align: center;
 
 }
 .m5 {
     float: right;
-    width: 15vw;
-    height: 15vh;
-    margin-right: 10vw;
-    font-size: 24px;
+    margin:2rem 2rem;
+    font-size: 1rem;
     color: white;
     text-align: center;
 
