@@ -3,6 +3,10 @@ html{
     background-color: #eff0f4;
 
 }
+body{
+    margin: 0;
+
+}
 .header {
     background-color: #5fc0cd;
     width: 100%;
