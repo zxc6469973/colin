@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style>
+        html{
+            font-size: 62.5%;
+            font-family: "微软雅黑 Light";
+            font-weight: bold;
+        }
+        body{
+            margin: 0;
+            box-sizing: border-box;
+            height: 100%;
+        }
+        .header{
+            width: 100%;
+            height: 4.4rem;
+            background-color: #5fc0cd;
+
+        }
+        .back2{
+            position: absolute;
+            left: 2.1rem;
+            top: 1.5rem;
+        }
+        .personal{
+            text-align: center;
+            font-size:1.8rem;
+            color: #ffffff;
+            position: absolute;
+            left: 50%;
+            margin-left: -3.6rem;
+            top: 1.4rem;
+        }
+        .background{
+            width: 100%;
+            height: 16rem;
+            z-index: 0;
+        }
+        .user1{
+            position: absolute;
+            left: 1.5rem;
+            top: 8.2rem;
+        }
+        .name{
+            color: #ffffff;
+            font-size: 1.8rem;
+            position: absolute;
+            top: 10rem;
+            left: 11.5rem;
+        }
+        .age{
+            color: #ffffff;
+            font-size: 1.4rem;
+            position: absolute;
+            top: 10.2rem;
+            left: 16.53rem;
+        }
+        .adress{
+            color: #ffffff;
+            font-size: 1.25rem;
+            position: absolute;
+            top: 12.5rem;
+            left: 11.5rem;
+            text-align: right;
+        }
+        .q1{
+            width: 100%;
+            height: 5rem;
+            border-bottom: 0.1rem solid #c5c5c8;
+        }
+        .skill{
+            font-size: 1.6rem;
+            border-left: 0.2rem solid #5fc0cd;
+            padding-left: 0.5rem;
+            position: relative;
+            left: 1.5rem;
+            top: 1.5rem;
+        }
+        .star{
+            font-size: 1.6rem;
+            position: relative;
+            left: 1.5rem;
+            top: 1.5rem;
+        }
+        .option{
+            width: 5.5rem;
+            font-size: 1.6rem;
+            color: #c5c5c8;
+            text-align: center;
+            padding-right: 1.5rem;
+            border-right: 0.2rem solid #c5c5c8;
+            position: relative;
+            left: 1.5rem;
+            top: 34%;
+        }
+        .years{
+            font-size: 1.6rem;
+            position: relative;
+            left: 10rem;
+        }
+        .time{
+            font-size: 1.6rem;
+            position: relative;
+            left: 10rem;
+        }
+        .price{
+            font-size: 1.6rem;
+            color: #e56f6f;
+            position: relative;
+            left: 10rem;
+        }
+        .q2{width: 100%;
+            display: flex;
+            border-bottom: 0.1rem solid #c5c5c8;
+            position: absolute;
+
+        }
+        .option1{
+            width: 5.5rem;
+            font-size: 1.6rem;
+            color: #c5c5c8;
+            text-align: center;
+            padding:0 1.5rem;
+            border-right: 0.2rem solid #c5c5c8;
+            position: absolute;
+            top: 50%;
+            margin-top: -0.8rem;
+
+        }
+        .introduce{
+            width: 60%;
+            font-size: 1.4rem;
+            margin: 1.7rem 0;
+            position: relative;
+            left: 10rem;
+        }
+        .footer{
+            background-color: #ffffff;
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+        .b1{
+            font-size: 1.7rem;
+            border: 0.1rem  solid #5fc0cd ;
+            border-radius: 0.5rem;
+
+        }
+    </style>
+    <title>Title</title>
+</head>
+<body>
+<div class="header">
+    <a href="#"><img  class="back2" src="back2.png"></a>
+    <div  class="personal">个人主页</div>
+</div >
+<img class="background" src="background.png">
+<img class="user1" src="user1.png">
+<span class="name">徐士林</span>
+<span class="age">55岁</span>
+<div class="adress">
+    <img src="gps.png">
+     &nbsp;京城&nbsp;·&nbsp;四方&nbsp;·&nbsp;报纸林
+</div>
+<div class="q1">
+    <div class="skill">专业技能</div>
+</div>
+<div class="q1">
+    <span class="star"> <img src="star.png"> 住家   &nbsp;     <img src="star.png"> 不含餐  </span>
+</div>
+<div class="q1">
+    <div class="option">从业年限</div>
+    <div class="years">0~3年</div>
+</div>
+<div class="q1">
+    <div class="option">工作时间</div>
+    <div class="time">全天</div>
+</div>
+<div class="q1">
+    <div class="option">服务价格</div>
+    <div class="price">25元/小时</div>
+</div>
+<div class="q2">
+    <div class="option1">自我介绍</div>
+    <div class="introduce">可以洗衣、做饭、照顾老人。在护工方面有5年的经验，经验丰富。可以洗衣、做饭、照顾老人。在护工方面有5年的经验，经验丰富。</div>
+</div>
+<div class="footer">
+    <form>
+        <input type="button" class="b1" value="留言">
+        <input type="button" class="b2" value="电话联系">
+    </form>
+
+</div>
+</body>
+</html>
